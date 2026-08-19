@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { Bot, InlineKeyboard } = require('grammY');
+const { Bot, InlineKeyboard } = require('grammy');
 const { OpenAI } = require('openai');
 
 const bot = new Bot(process.env.BOT_TOKEN);
